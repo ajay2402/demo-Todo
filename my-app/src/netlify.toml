@@ -1,4 +1,10 @@
-[[redirects]]
+
+[build]
+     command = "npm num build"
+     publish ="/build"
+     base = "/"
+     
+    [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
