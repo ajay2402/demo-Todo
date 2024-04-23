@@ -25,7 +25,8 @@ const TodoList = () => {
 
   return (
     <div>
-      <h1>To-Do List</h1>
+      <center>
+      <h1>AJAY TODO -LIST</h1>
       <input
         type="text"
         value={newTodo}
@@ -64,6 +65,7 @@ const TodoList = () => {
           </li>
         ))}
       </ul>
+      </center>
     </div>
   );
 };
