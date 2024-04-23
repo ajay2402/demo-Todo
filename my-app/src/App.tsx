@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Search from './Component/Search';
+
+
+
 function App() {
+ 
+
   return (
     <div className="App">
       <Search/>
