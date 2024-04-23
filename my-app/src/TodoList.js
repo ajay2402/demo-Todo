@@ -25,7 +25,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <h1>To-Do List</h1>
+      <h1>Ajay Todo-List</h1>
       <input
         type="text"
         value={newTodo}
